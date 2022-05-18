@@ -607,9 +607,12 @@ footer > .container{
     .menu__container{
         --width-elements:100%;
         width: 90%;
+        padding: 40px 20px 70px;
     }
 
-   
+    .menu{
+        padding-top:0;
+    }
     .slider__content{
         gap:1em;
         text-align:center;
