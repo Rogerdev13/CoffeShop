@@ -8,7 +8,6 @@ const first = document.getElementById('first')
 
 const linkMenu = document.getElementById('linkMenu')
 const hero__link = [...document.querySelectorAll('.hero__link')]
-console.log(hero__link)
 
 
 const cargarElement = (o , e )=>{
