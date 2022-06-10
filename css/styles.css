@@ -529,8 +529,16 @@ footer > .container{
     justify-content: center;
     align-items: center;
     background-color: #fff;
-
+    opacity: 0;
+    transition:opacity .3s ease;
 }
+
+
+.btn_up--active{
+    opacity:1;
+}
+
+
 
 
 @media screen and (max-width:858px) {
